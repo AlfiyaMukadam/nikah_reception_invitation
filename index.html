@@ -240,7 +240,9 @@ footer .copyright{margin-top:25px;color:#C9C4BE;font-size:8px;letter-spacing:.16
 
 /* Music control */
 .music-control{position:fixed;right:19px;bottom:19px;z-index:150;display:none;min-width:105px;min-height:40px;padding:10px 15px;border:1px solid var(--champagne);border-radius:30px;background:var(--blue);color:#fff;font-size:8px;letter-spacing:.1em;box-shadow:0 5px 20px #342D3125}
-.music-control.visible{display:block}
+.music-control.visible {
+    display: none !important;
+}
 
 /* Lightbox */
 .lightbox{position:fixed;inset:0;z-index:3000;display:none;align-items:center;justify-content:center;padding:50px 65px;background:rgba(28,34,38,.95)}
@@ -1059,6 +1061,11 @@ footer .copyright{color:#D9BFB5}
 
 <!-- MUSIC CONTROL -->
 
+<button class="music-control" id="musicControl"
+        type="button" aria-label="Toggle background music"
+        aria-pressed="true">
+  ♫ MUSIC ON
+</button>
 
 <!-- IMAGE LIGHTBOX -->
 
