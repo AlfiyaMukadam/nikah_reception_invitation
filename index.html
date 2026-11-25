@@ -4,17 +4,17 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#291d2b">
-<title>Alfiya & Danish | Mehfil-e-Noor</title>
+<title>Danish & Alfiya | Mehfil-e-Noor</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=DM+Sans:wght@300;400;500;600&family=Italiana&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Pinyon+Script&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=DM+Sans:wght@300;400;500;600;700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Manrope:wght@300;400;500;600;700&family=Parisienne&display=swap" rel="stylesheet">
 <style>
 :root{
   --plum:#291d2b;--plum-2:#3c2b3d;--wine:#654b5b;--rose:#b98f91;
   --rose-light:#ddc2bd;--champagne:#c8ad83;--ivory:#f8f4ed;
   --paper:#fffdf9;--ink:#302b2d;--muted:#777071;--line:#dfd2c4;
-  --serif:"Playfair Display",Georgia,serif;--display:"Italiana",serif;
-  --script:"Pinyon Script",cursive;--sans:"DM Sans",Arial,sans-serif;
+  --serif:"Libre Baskerville",Georgia,serif;--display:"Manrope",Arial,sans-serif;
+  --script:"Parisienne",cursive;--sans:"Manrope",Arial,sans-serif;
 }
 *{box-sizing:border-box}
 html{scroll-behavior:smooth;scroll-padding-top:90px}
@@ -162,7 +162,7 @@ section{padding:84px 22px}
 
 /* EVENTS */
 .events{background:var(--ivory)}
-.event-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:26px;margin-top:42px}
+.event-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;margin-top:42px}
 .event-card{position:relative;display:flex;flex-direction:column;min-width:0;overflow:hidden;background:var(--paper);border:1px solid #d8c7ba;box-shadow:0 12px 35px #2c1e290c;transition:transform .35s,box-shadow .35s}
 .event-card:hover{transform:translateY(-5px);box-shadow:0 18px 40px #2c1e2918}
 .event-card:before{content:"";position:absolute;inset:7px;z-index:2;border:1px solid #ddcfc3;pointer-events:none}
@@ -185,6 +185,8 @@ section{padding:84px 22px}
 .event-venue{max-width:370px;margin:8px auto}
 .event-map,.card-download{display:inline-block;margin:13px 7px 0;padding-bottom:5px;border-bottom:1px solid #bd9991;color:#8e666c;font-size:7px;font-weight:600;letter-spacing:.16em;text-transform:uppercase}
 .event-map:hover,.card-download:hover{color:var(--plum)}
+.card-download{padding:10px 14px;border:1px solid #bd9991;background:#f8f2ec;letter-spacing:.12em}
+.card-download:hover{background:#eee2d8}
 .program{max-width:340px;margin:16px auto 0;padding:12px 4px;border-top:1px solid #ddc9c1;border-bottom:1px solid #ddc9c1}
 .program span{display:inline-block;margin:4px 7px;color:#5e4853;font:17px var(--serif)}
 .program small{display:block;margin-top:7px;color:#987779;font:16px Amiri,serif}
@@ -320,7 +322,7 @@ footer .copyright{margin-top:24px;color:#a99a9f;font-size:7px;letter-spacing:.18
     <div class="opening-kicker">MEHFIL-E-NOOR &nbsp; ✧ &nbsp; 7 RAJAB 1448 AH</div>
     <div class="bismillah" aria-label="Bismillah">﷽</div>
     <div class="opening-overline">A gathering of duas · A promise of forever</div>
-    <h1><span>Alfiya</span><span class="amp">&amp;</span><span>Danish</span></h1>
+    <h1><span>Danish</span><span class="amp">&amp;</span><span>Alfiya</span></h1>
     <div class="opening-script">A beautiful beginning, by His grace.</div>
     <div class="opening-divider" aria-hidden="true">✧</div>
     <div class="opening-date">16 DECEMBER 2026<small>WEDNESDAY · 6:30 PM ONWARDS</small></div>
@@ -338,7 +340,7 @@ footer .copyright{margin-top:24px;color:#a99a9f;font-size:7px;letter-spacing:.18
 <header>
   <a class="brand" href="#home">
     <img src="./nikah_reception_invitation/AD-monogram.png" alt="">
-    <span>Alfiya &amp; Danish</span>
+    <span>Danish &amp; Alfiya</span>
   </a>
   <nav aria-label="Main navigation">
     <a href="#story">Our Story</a>
@@ -356,9 +358,9 @@ footer .copyright{margin-top:24px;color:#a99a9f;font-size:7px;letter-spacing:.18
       <img class="hero-monogram" src="./nikah_reception_invitation/AD-monogram.png" alt="A and D monogram">
       <div class="eyebrow">A celebration of love, faith &amp; family</div>
       <h1 class="hero-couple">
-        <span class="hero-person"><small>THE BRIDE</small>Alfiya</span>
-        <span class="hero-amp" aria-hidden="true">&amp;</span>
         <span class="hero-person"><small>THE GROOM</small>Danish</span>
+        <span class="hero-amp" aria-hidden="true">&amp;</span>
+        <span class="hero-person"><small>THE BRIDE</small>Alfiya</span>
       </h1>
       <div class="hero-subtitle">A blessed beginning · A lifetime of love</div>
       <div class="rule"></div>
@@ -390,31 +392,14 @@ footer .copyright{margin-top:24px;color:#a99a9f;font-size:7px;letter-spacing:.18
       </div>
 
       <div class="hosts reveal">
-        <div class="host-title">Hosted with love and blessings by the bride's grandparents</div>
+        <div class="host-title">Hosted with love and blessings by the groom's grandparents</div>
         <h3>Our Beloved Hosts</h3>
-        <p>Mrs. Julekha &amp; Late Mr. Ahmed Mukadam</p>
+        <p>Mrs. Pratibha <span class="parent-amp">&amp;</span> Late Mr. Prabhakar Vedak</p>
         <div class="rule"></div>
-        <p>Mrs. Roshanbi &amp; Late Mr. Abdul Latif Thakur</p>
+        <p>Late Mrs. Mehrunnisa <span class="parent-amp">&amp;</span> Late Mr. Ismail Khan</p>
       </div>
 
       <div class="couple-showcase">
-        <article class="family-card reveal">
-          <div class="family-label">The Bride</div>
-          <div class="family-name-kicker">ER.</div>
-          <h3>Alfiya</h3>
-          <div class="family-name-rule"><span>✦</span></div>
-          <p class="family-relation">Daughter of</p>
-          <p class="family-parents">Mrs. Rabiyabi <span class="parent-amp">&amp;</span> Mr. Ashfaque Mukadam</p>
-          <div class="family-small">With love and gratitude to her family</div>
-        </article>
-
-        <div class="couple-crest" aria-label="Alfiya and Danish monogram">
-          <span class="crest-line"></span>
-          <div class="crest-medallion"><img src="./nikah_reception_invitation/AD-monogram.png" alt="A and D monogram"></div>
-          <span class="crest-caption">A &amp; D</span>
-          <span class="crest-line"></span>
-        </div>
-
         <article class="family-card reveal">
           <div class="family-label">The Groom</div>
           <div class="family-name-kicker">ER.</div>
@@ -424,6 +409,23 @@ footer .copyright{margin-top:24px;color:#a99a9f;font-size:7px;letter-spacing:.18
           <p class="family-parents">Mrs. Heena <span class="parent-amp">&amp;</span> Mr. Feroz Khan</p>
           <div class="family-small">With love and gratitude to his family</div>
         </article>
+
+        <div class="couple-crest" aria-label="Danish and Alfiya monogram">
+          <span class="crest-line"></span>
+          <div class="crest-medallion"><img src="./nikah_reception_invitation/AD-monogram.png" alt="A and D monogram"></div>
+          <span class="crest-caption">A &amp; D</span>
+          <span class="crest-line"></span>
+        </div>
+
+        <article class="family-card reveal">
+          <div class="family-label">The Bride</div>
+          <div class="family-name-kicker">ER.</div>
+          <h3>Alfiya</h3>
+          <div class="family-name-rule"><span>✦</span></div>
+          <p class="family-relation">Daughter of</p>
+          <p class="family-parents">Mrs. Rabiyabi <span class="parent-amp">&amp;</span> Mr. Ashfaque Mukadam</p>
+          <div class="family-small">With love and gratitude to her family</div>
+        </article>
       </div>
 
       <aside class="remembrance reveal" id="remembrance" aria-label="In loving memory">
@@ -431,8 +433,8 @@ footer .copyright{margin-top:24px;color:#a99a9f;font-size:7px;letter-spacing:.18
         <div class="remembrance-kicker">Remembered with love</div>
         <h3>In Loving Memory</h3>
         <div class="remembrance-rule"></div>
-        <p class="remembrance-name">Late Mr. Mansur Ali Abdul Latif Thakur</p>
-        <p class="remembrance-relation">Beloved Uncle of the Bride</p>
+        <p class="remembrance-name">Late Mr. Anwar Ismail Khan</p>
+        <p class="remembrance-relation">Beloved Uncle of the Groom</p>
         <p class="remembrance-message">Though he is no longer with us, his memory remains close to our hearts. He is lovingly remembered as our family gathers to celebrate this blessed occasion.</p>
         <div class="remembrance-dua">May Allah grant him the highest place in Jannat-ul-Firdous. Aameen.</div>
       </aside>
@@ -458,78 +460,36 @@ footer .copyright{margin-top:24px;color:#a99a9f;font-size:7px;letter-spacing:.18
     <div class="inner">
       <div class="heading reveal">
         <span class="kicker">Save the dates</span>
-        <h2>Our Wedding Celebrations</h2>
-        <p>From joyful gatherings to our blessed Nikah, every moment is made more special with you.</p>
+        <h2>Wedding Celebrations</h2>
+        <p>With the blessings of our families, we warmly invite you to join us for Danish's Haldi, our Nikah and the Walima.</p>
       </div>
 
       <div class="event-grid">
         <article class="event-card reveal">
           <div class="event-image-frame">
-            <img src="./nikah_reception_invitation/Danish_Haldi_Sangeet_invitation.png" alt="Danish's Haldi and Sangeet invitation" loading="lazy">
+            <img src="./nikah_reception_invitation/haldi_image_danish.png" alt="Danish's Haldi invitation" loading="lazy">
           </div>
           <div class="event-content">
-            <div class="event-number">Celebration 01 · The Groom's Festivities</div>
+            <div class="event-number">Celebration 01 · The Groom's Haldi</div>
             <h3>Haldi &amp; Sangeet</h3>
             <p class="event-tagline">In My Haldi Era</p>
             <p class="event-detail"><strong>For: Danish</strong></p>
             <p class="event-detail"><strong>Sunday, 13 December 2026</strong></p>
             <p class="event-detail"><strong>Shree Sai Bhavan, Budhaji Nagar,<br>Kalwa West, Thane, Maharashtra 400605</strong></p>
             <a class="event-map" href="https://maps.app.goo.gl/BQh4fUTX79T68Jqo6" target="_blank" rel="noopener">View Venue</a>
-          </div>
-        </article>
-
-        <article class="event-card reveal">
-          <div class="event-art">
-            <div class="event-art-inner">
-              <div class="event-art-kicker">Celebration 02 · For the Bride</div>
-              <div class="event-art-title">Haldi &amp; Sangeet</div>
-              <div class="event-art-sub">In My Haldi Era</div>
-              <img class="event-art-monogram" src="./nikah_reception_invitation/AD-monogram.png" alt="">
-            </div>
-          </div>
-          <div class="event-content">
-            <div class="event-number">A little sunshine &amp; celebration</div>
-            <h3>Haldi &amp; Sangeet</h3>
-            <p class="event-tagline">In My Haldi Era</p>
-            <p class="event-detail"><strong>For: Alfiya</strong></p>
-            <p class="event-detail"><strong>Monday, 14 December 2026</strong></p>
-            <p class="event-detail"><strong>Time: Baad Namaz-e-Asar</strong></p>
-            <p class="event-detail"><strong>Venue: Bride's Residence</strong></p>
-            <a class="event-map" href="https://maps.app.goo.gl/ChtJeovoDppH7mis6" target="_blank" rel="noopener">View Venue</a>
-          </div>
-        </article>
-
-        <article class="event-card reveal">
-          <div class="event-art">
-            <div class="event-art-inner">
-              <div class="event-art-kicker">Celebration 03 · For the Bride</div>
-              <div class="event-art-title">Mehendi</div>
-              <div class="event-art-sub">Henna &amp; Happily Ever After</div>
-              <img class="event-art-monogram" src="./nikah_reception_invitation/AD-monogram.png" alt="">
-            </div>
-          </div>
-          <div class="event-content">
-            <div class="event-number">A little mehendi, a lot of memories</div>
-            <h3>Henna &amp; Happily Ever After</h3>
-            <p class="event-tagline">A little mehendi, a lot of memories</p>
-            <p class="event-detail"><strong>For: Alfiya</strong></p>
-            <p class="event-detail"><strong>Tuesday, 15 December 2026</strong></p>
-            <p class="event-detail"><strong>Time: Baad Namaz-e-Maghrib</strong></p>
-            <p class="event-detail"><strong>Followed by: Dinner</strong></p>
-            <p class="event-detail"><strong>Venue: Bride's Residence</strong></p>
-            <a class="event-map" href="https://maps.app.goo.gl/ChtJeovoDppH7mis6" target="_blank" rel="noopener">View Venue</a>
+            <a class="card-download" href="./nikah_reception_invitation/haldi_image_danish.png" download="Danish_Haldi_Invitation.png">Download Invitation ↓</a>
           </div>
         </article>
 
         <article class="event-card reveal">
           <div class="event-image-frame">
-            <img src="./nikah_reception_invitation/Nikah_Invitation.png" alt="Alfiya and Danish Nikah invitation" loading="lazy">
+            <img src="./nikah_reception_invitation/nikah_image.jpeg" alt="Danish and Alfiya's Nikah invitation" loading="lazy">
           </div>
           <div class="event-content">
-            <div class="event-number">Celebration 04 · The Main Celebration</div>
+            <div class="event-number">Celebration 02 · The Nikah</div>
             <h3>Mehfil-e-Noor</h3>
             <p class="event-tagline">A Gathering of Light, Faith &amp; Blessings</p>
-            <p class="event-detail"><strong>Alfiya &amp; Danish</strong></p>
+            <p class="event-detail"><strong>Danish &amp; Alfiya</strong></p>
             <p class="event-detail"><strong>Wednesday, 16 December 2026</strong></p>
             <p class="event-detail"><strong>7 Rajab 1448 AH</strong></p>
             <p class="event-detail"><strong>6:30 PM onwards</strong></p>
@@ -537,15 +497,16 @@ footer .copyright{margin-top:24px;color:#a99a9f;font-size:7px;letter-spacing:.18
             <p class="event-detail event-venue">Noor Baug Hall, Behind Shimla Park,<br>Opposite Talao Pali, Kausa,<br>Mumbra – 400612</p>
             <div class="program"><span>Bayaan</span><span>Naat</span><span>Nikah</span><span>Dinner</span><small>محفلِ نور</small></div>
             <a class="event-map" href="https://www.google.com/maps/search/?api=1&amp;query=Noor+Baug+Hall+Kausa+Mumbra+Thane" target="_blank" rel="noopener">View Venue</a>
+            <a class="card-download" href="./nikah_reception_invitation/nikah_image.jpeg" download="Nikah_Invitation.jpeg">Download Invitation ↓</a>
           </div>
         </article>
 
         <article class="event-card reveal">
           <div class="event-image-frame">
-            <img src="./nikah_reception_invitation/walima_image.png" alt="Ta'am al Walima invitation" loading="lazy">
+            <img src="./nikah_reception_invitation/walima_image.png" alt="Danish and Alfiya's Walima invitation" loading="lazy">
           </div>
           <div class="event-content">
-            <div class="event-number">Celebration 05 · The Grand Reception</div>
+            <div class="event-number">Celebration 03 · The Walima</div>
             <h3>Ta'am-al-Walima</h3>
             <p class="event-tagline">Together in joy, surrounded by love</p>
             <p class="event-detail"><strong>Friday, 18 December 2026</strong></p>
@@ -554,6 +515,7 @@ footer .copyright{margin-top:24px;color:#a99a9f;font-size:7px;letter-spacing:.18
             <p class="event-detail event-venue">Noori Hall, Noori Baba Dargah Road,<br>Makhmali Tank Road, Thane West,<br>Thane, Maharashtra 400601</p>
             <div class="walima-transport-note"><strong>Bus Service Arranged</strong><span>Details and timings will be updated shortly.</span></div>
             <a class="event-map" href="https://www.google.com/maps/search/?api=1&amp;query=Noori+Hall+Noori+Baba+Dargah+Road+Thane+West+400601" target="_blank" rel="noopener">View Venue</a>
+            <a class="card-download" href="./nikah_reception_invitation/walima_image.png" download="Walima_Invitation.png">Download Invitation ↓</a>
           </div>
         </article>
       </div>
